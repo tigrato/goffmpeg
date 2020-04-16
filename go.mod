@@ -1,4 +1,4 @@
-module github.com/xfrr/goffmpeg
+module github.com/tigrato/goffmpeg
 
 go 1.14
 
