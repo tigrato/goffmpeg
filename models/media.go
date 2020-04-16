@@ -663,6 +663,7 @@ func (m *Mediafile) ToStrCommand() []string {
 		"VideoMaxBitRate",
 		"VideoMinBitRate",
 		"VideoProfile",
+		"CustomFlags",
 		"SkipVideo",
 		"AudioCodec",
 		"AudioBitRate",
@@ -703,7 +704,6 @@ func (m *Mediafile) ToStrCommand() []string {
 		"OutputPath",
 		"Bframe",
 		"MovFlags",
-		"CustomFlags",
 	}
 
 	for _, name := range opts {
